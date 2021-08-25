@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        .first-image img {
+            height: 500px;
+        }
+        .side-collage img{
+            height: 400px;
+        }
+        .last-image img {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <h1 class="my-5">Collage using Bootstrap Layout</h1>
+        <div class="row">
+            <div class="col-4">
+                <div class="row mb-4">
+                    <img src="images/collage/bottle.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="row">
+                    <img src="images/collage/stool.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row mb-4">
+                    <img src="images/collage/coffee.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="row mb-4">
+                    <img src="images/collage/lamp.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="row mb-4">
+                    <img src="images/collage/watch.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="row mb-4">
+                    <img src="images/collage/honey.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row mb-4">
+                    <img src="images/collage/cactus.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="row mb-4">
+                    <img src="images/collage/sunglass.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="row mb-4">
+                    <img src="images/collage/lens.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container my-5 py-5">
+        <h1 class="mb-5">Another collage without gutter</h1>
+        <div class="row g-0">
+            <div class="col-4 first-image">
+                <img src="images/vacation/sunset.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-8">
+                <div class="row g-0 side-collage">
+                    <div class="col-4">
+                        <img src="images/vacation/boat.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/vacation/sunset.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <img src="images/vacation/coconut.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row last-image">
+                    <img src="images/vacation/sand.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
